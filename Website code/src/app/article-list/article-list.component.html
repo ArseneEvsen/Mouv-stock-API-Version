@@ -1,0 +1,28 @@
+<h2> Article List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>Barcode</th>
+            <th>Price</th>
+            <th>qteUnite</th>
+            <th>Stock</th>
+            <th>article_Name</th>
+            <th>unite</th>
+            <th>under_group</th>
+            <th>brand</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let article of articles">
+            <td> {{article.barcode}}</td>
+            <td> {{article.price}}</td>
+            <td> {{article.qteUnite}}</td>
+            <td> {{article.stock}}</td>
+            <td> {{article.article_Name}}</td>
+            <td> {{article.unite.unite}}</td>
+            <td> {{article.under_group.under_Group_Article}}</td>
+            <td> {{article.brand.brand}}</td>
+        </tr>
+    </tbody>
+
+</table>

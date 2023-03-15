@@ -1,0 +1,47 @@
+<div class= "col-md-6 offset-md-3">
+
+<h3> Créer un article</h3>
+<form (submit)="onSubmit()">
+  <label>
+    Article Name:
+    <input type="text" name="article_Name" [(ngModel)]="formData.article_Name">
+  </label>
+  <label>
+    Barcode:
+    <input type="number" name="barcode" [(ngModel)]="formData.barcode">
+  </label>
+  <label>
+    Unit:
+    <input type="text" name="unite.unite" [(ngModel)]="formData.unite.unite">
+  </label>
+  <label>
+    Under Group Article:
+    <input type="text" name="under_group.under_Group_Article" [(ngModel)]="formData.under_group.under_Group_Article">
+  </label>
+  <label>
+    Group Article:
+    <input type="text" name="under_group.group_Article.group_Article" [(ngModel)]="formData.under_group.group_Article.group_Article">
+  </label>
+  <label>
+    Category:
+    <input type="text" name="under_group.group_Article.category.category" [(ngModel)]="formData.under_group.group_Article.category.category">
+  </label>
+  <label>
+    Brand:
+    <input type="text" name="brand.brand" [(ngModel)]="formData.brand.brand">
+  </label>
+  <label>
+    Stock:
+    <input type="number" name="stock" [(ngModel)]="formData.stock">
+  </label>
+  <label>
+    Quantity per Unit:
+    <input type="number" name="qteUnite" [(ngModel)]="formData.qteUnite">
+  </label>
+  <label>
+    Price:
+    <input type="number" name="price" [(ngModel)]="formData.price">
+  </label>
+  <button type="submit">Submit</button>
+</form>
+</div>

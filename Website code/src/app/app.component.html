@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink= "articles" routerLinkActive= "active" class = "nav-link"> Article List</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink= "create-article" routerLinkActive= "active" class = "nav-link"> Create Article</a>
+        </li>
+    </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+
+<div class="container"> 
+    <router-outlet></router-outlet>
+</div>
+
+<footer class = "footer"> 
+    <div class = "container">
+        <span> All Right Reserved 2023 @Supermarche Istanbul</span>
+    </div>
+</footer>

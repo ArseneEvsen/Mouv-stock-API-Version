@@ -1,0 +1,3 @@
+Note :
+
+The folder only contain the source code of the Angular project, not the code of the configurations/framework.
