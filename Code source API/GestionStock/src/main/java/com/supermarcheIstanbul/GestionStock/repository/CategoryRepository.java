@@ -1,0 +1,8 @@
+package com.supermarcheIstanbul.GestionStock.repository;
+
+import com.supermarcheIstanbul.GestionStock.model.BatchArticle;
+import com.supermarcheIstanbul.GestionStock.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category,String> {
+}
