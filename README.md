@@ -21,7 +21,7 @@ Cette API REST est accessible depuis un **site web réactif**, développé avec 
 Pour plus d'information et une meilleure présentation du contexte, le rapport de stage est disponible en téléchargement dans ce repository.
 
 ## Fonctionnalitées
-L'API REST tourne sous un **serveur tomcat**, il est accessible par le site web Angular développé pour recevoir et envoyé des fichiers JSON à destination des  **endpoints** des **controllers**.
+L'API REST tourne sous un **serveur tomcat**, il est accessible par le site web Angular développé pour recevoir et envoyer des fichiers JSON à destination des  **endpoints** des **controllers**.
 L'API est capable d'effectuer les actions suivantes : Créer / Lire / Modifier / Supprimer.
 Ces actions sont effectué sur les entités suivantes : les articles unitaires et les articles en lot, du supermarché. Ces entités sont présente en base de donnée, et sont géré par le framework Spring Data JPA.
 
